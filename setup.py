@@ -45,8 +45,8 @@ setup(
     python_requires='==3.6.*',
     py_modules=['beacon_chain', 'ssz'],
     extras_require=deps,
-    setup_requires=['setuptools-markdown'],
     long_description_markdown_filename='README.md',
+    long_description_content_type="text/markdown",
     include_package_data=True,
     zip_safe=False,
     classifiers=[
