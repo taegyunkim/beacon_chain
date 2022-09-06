@@ -5,7 +5,7 @@
 ## Installation
 Using a python3.6.* environment, run the following to install required libraries:
 ```
-pip install -e .[dev]
+pip install -e '.[dev]'
 ```
 
 NOTE: We suggest using virtualenv to sandbox your setup.
